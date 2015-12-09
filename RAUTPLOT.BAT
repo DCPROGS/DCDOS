@@ -1,0 +1,2 @@
+autplot
+pause

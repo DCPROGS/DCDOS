@@ -1,0 +1,3 @@
+ekdist.exe
+pause
+
