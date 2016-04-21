@@ -17,6 +17,8 @@ The DOS programs run on most PCs, but to run them on a Windows 7 or Windows 8 ma
 
 The instructions for installation and running DC DOS programs on MAC (see MAC_instructions_DCProgs.pdf file) have been compiled by [Andrew Plested] (http://www.fmp-berlin.info/research/molecular-physiology-and-cell-biology/research-groups/plested/mnb0.html), who has kindly agreed to help if you have problems.
 
+Here follows short description of DOS DCprogs. For more details see [OneMol.org page] (http://www.onemol.org.uk/?page_id=331).
+
 ###SCAN (DOS only!)
 SCAN is ‘idealisation’ program which uses time course fitting to measure open and shut time intervals of single channel records. It converts a raw single channel recording into a list of shut times, open times and amplitudes (a .scn file) that is used for subsequent analyses. 
 
