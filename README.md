@@ -19,14 +19,14 @@ The instructions for installation and running DC DOS programs on MAC (see MAC_in
 
 Here follows short description of DOS DCprogs. For more details see [OneMol.org page] (http://www.onemol.org.uk/?page_id=331).
 
-###SCAN (DOS only!)
+### SCAN (DOS only!)
 SCAN is ‘idealisation’ program which uses time course fitting to measure open and shut time intervals of single channel records. It converts a raw single channel recording into a list of shut times, open times and amplitudes (a .scn file) that is used for subsequent analyses. 
 
-###HJCFIT
+### HJCFIT
 HJCFIT is a program for maximum likelihood fitting of a mechanism directly to the entire sequence of open and shut times, with exact missed events correction. The input for HJCFIT is a list of idealised open and shut time intervals. A kinetic mechanism is specified with some initial guesses for the rate constants. Currently fitting is done using the Simplex algorithm to maximise the likelihood.
 
 The name of the program is an acronym for Hawkes, Jalali & Colquhoun, whose papers in 1990 and 1992 (HJC92) described the exact solution of the missed event problem, which is the basis of the program. The HJCFIT method was first described by Colquhoun, Hawkes & Srodzinski in 1996 (CHS96). The properties of the estimates of rate constants obtained by this method have now been evaluated (Colquhoun, Hatton & Hawkes, 2003).
 
-###EKDIST
+### EKDIST
 
 EKDIST is used for fitting of many sorts of distributions to the output from SCAN. It fits mixtures of exponential distributions to dwell time, mixtures of geometric distributions to discrete distributions (such as the number of apparent openings per burst), and mixtures of gaussians to amplitude distributions. EKDIST also does stability plots (for amplitudes and durations), many sorts of burst analysis, subconductance transition listing (and 3D plotting), correlations of various types, including 3D bivariate distributions and dependency plots. It has far more options than any commercial program for the empirical fitting of single channel data.
