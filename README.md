@@ -4,7 +4,7 @@ DCDOS repository contains the original compiled DC DOS programs written in Fortr
 Some programs have been rewriten in FORTRAN to compile for Windows (HJCFIT and AUTPLOT: see DCWIN repository) and some are being rewriten in pure Python (theoretical calculation programs: see SCALCS repository; curve fitting program: see CVFIT repository) or Python/C++ (see HJCFIT repository).  However, some programs are available only for DOS, especially the crucial SCAN program for idealisation of raw single-channel data. 
 
 The DOS programs run on most PCs, but to run them on a Windows 7 or Windows 8 machine, you must install DOSBOX first. The following method works on a 64 bit Windows 7 machine (theoretically should work on MAC and Linux machines):
-- Download the programs and stuff needed to run them as a zip file by clicking button'Download ZIP' or by cloning all the repository using git (command 'got clone https://github.com/DCPROGS/DCDOS.git'). 
+- Download the programs and stuff needed to run them as a zip file by clicking button'Download ZIP' or by cloning all the repository using git (command 'git clone https://github.com/DCPROGS/DCDOS.git'). 
 - Download and install DOSBOX from http://www.dosbox.com/ 
 - Run DOSBOX (eg by clicking the desktop icon)
 - At the Z:\> prompt in the DOS box, type
